@@ -1,0 +1,18 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1192px;
+}
+.content__left {
+  display: flex;
+  flex-direction: column;
+  width: 784px;
+  margin-left: 330px;
+}
+.content__left-f {
+  position: absolute;
+  right: 24px;
+}
+.content__side {
+  width: 265px;
+}

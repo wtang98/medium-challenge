@@ -1,0 +1,20 @@
+.container{
+    width: 297.594px;
+    height: 70px;
+    &__img{
+        width: 60px;
+        height: 60px;
+    }
+    &__text{
+        width: 227.59px;
+        h4{
+            font-weight: bold;
+            font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        p{
+            font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+        }
+    }
+}

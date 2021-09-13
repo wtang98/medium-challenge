@@ -1,0 +1,23 @@
+.latest{
+    // margin-left: 354px;
+    width: 784px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // margin-bottom: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 24px;
+    .left{
+        width:632px;
+        &__header{
+            font-weight: bold;
+        }
+    }
+    .right{
+
+        img{
+            
+            width: 152px;
+        }
+    }
+}

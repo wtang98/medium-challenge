@@ -1,0 +1,17 @@
+.latest {
+  width: 784px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 24px;
+}
+.latest .left {
+  width: 632px;
+}
+.latest .left__header {
+  font-weight: bold;
+}
+.latest .right img {
+  width: 152px;
+}

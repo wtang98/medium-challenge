@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.splash {
+  width: 784px;
+  height: 525px;
+  padding-left: 24px;
+  padding-right: 16px;
+  margin-top: 110px;
+}
+.splash__img {
+  width: 784px;
+  height: 382px;
+}
+.splash__head {
+  letter-spacing: -0.016em;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+.splash__author {
+  display: flex;
+  margin-top: 10px;
+}
+.splash__author-left {
+  width: 40px;
+  height: 40px;
+}
+.splash__author-left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.splash__author-right {
+  margin-left: 10px;
+}
