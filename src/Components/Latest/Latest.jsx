@@ -2,10 +2,13 @@ import React from 'react'
 import "./Latest.css"
 import IMG from "../../assets/images/latest.jpg"
 
+
 const Latest = (props) => {
-    const {title, text, writer, date, min} = props
-    return (
-        <>
+    const {dataArr} = props
+    
+    return dataArr.map(({ title, writer, text, date, mins}) => {
+        return (
+            <>
             <div className="latest">
                 <div className="left">
                     <h3 className="left__header">{title}</h3>
@@ -13,7 +16,7 @@ const Latest = (props) => {
                     <p className="left__author">{writer}</p>
                     <div className="left__bot">
                         <p className="left_date">{date}</p>
-                        <p className="left__time">{min} min read</p>
+                        <p className="left__time">{mins} min read</p>
                     </div>
                 </div>
                 <div className="right">
@@ -22,6 +25,7 @@ const Latest = (props) => {
             </div>
         </>
     )
+    })
 }
 
 export default Latest
