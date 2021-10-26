@@ -14,8 +14,7 @@ function App() {
   const filteredArr = latestData.filter(lateData => lateData.title).slice(0,3);
   const afterArr = latestData.filter(lateData => lateData.title).slice(3,6);
 
-  // console.log(mins.title)
-  // console.log(latestData.filter(lateData => lateData.mins).slice(0,6))
+  // const results = filteredArr.map(result => result.)
 
   return (
     <>
@@ -27,7 +26,6 @@ function App() {
           <Latest dataArr={filteredArr}/>
           <Featured className="content__left-f" writer = "Lars Janus"/>
           <Latest dataArr={afterArr}/>
-
         </div>
         <Side className="side"/>
       </div>
